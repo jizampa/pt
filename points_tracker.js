@@ -7,7 +7,8 @@ function load()
 
 function initial()
 {
-	document.body.style.backgroundImage = 'url("images/background2.jpg")';
+	var content = document.getElementById("content");
+	content.style.backgroundImage = 'url("images/background2.jpg")';
 	// HEADER - title = Add Players	
 	document.getElementById("title").innerHTML = "ADD PLAYERS";
 	// SECTION -create 6 input 
@@ -18,6 +19,7 @@ function initial()
 
 function start_game()
 {
+
 	var number_of_players = 0;
 	var input = document.getElementsByTagName("input");
     // counted the number of plyers entered 
@@ -43,7 +45,8 @@ function start_game()
 
 function playing_game()
 {	
-	document.body.style.background = 'black';
+	var content = document.getElementById("content");
+	content.style.background = 'black';
 	// HEADER - title = Playing....
 	document.getElementById("title").innerHTML = "Playing...";
 	// SECTION - build player's table
