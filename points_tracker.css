@@ -1,22 +1,6 @@
-table, th, td
-{
-	border: 1px solid black;
-}
-
-th,td
-{
-	width: 60px;
-	height:30px;
-}
-input
-{
-	padding: 10px;
-}
-
 body
 {
-	/*background: black;*/
-	background-image:url("images/background2.jpg");
+	background: black;
 	background-repeat: no-repeat;
 }
 
@@ -28,24 +12,21 @@ header
 }
 
 section
-{
-	width: 587px;
-	height: auto;	
-	background-repeat: no-repeat;
-	text-align: center;
-	/*padding-top: 200px;*/
-	margin: 0 auto;
-
-
-	width: 100%;
-    height: auto;
-
+{	
+	max-height: 90%;
 
 }
 
-#firstinp
+#content 
 {
-	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 60PX;
+	max-width: 422px;
+    max-height: 80%;
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
 }
 
 footer
@@ -53,9 +34,35 @@ footer
 	text-align: center;
 	margin: 0 auto;
 }
+
 table
 {
+	max-width: 80%;
 	margin: 0 auto;
+}
+
+table, th, td
+{
+	border: 1px solid black;
+}
+
+th,td
+{
+	/*width: 60px;*/
+	/*height:30px;*/
+	background: white;
+	border-color: grey;
+}
+
+input
+{
+	padding: 10px;
+	width: 80%;
+}
+
+#firstinp
+{
+	margin-top: 30px;
 }
 
 button
@@ -69,12 +76,5 @@ button
 	font-size: 20px;
 	color:white;
 	font-weight: bold;
-	font-family: verdana;
-	/*background-color: background-color:rgba(192,192,192,0.0);*/
-}
-
-td, th
-{
-	background: white;
-	border-color: grey;
+	font-family: verdana;	
 }
