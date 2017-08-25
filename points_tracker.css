@@ -57,7 +57,7 @@ th,td
 input
 {
 	padding: 10px;
-	width: 80%;
+	max-width: 80%;
 }
 
 #firstinp
